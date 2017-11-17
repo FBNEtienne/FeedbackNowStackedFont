@@ -1,13 +1,13 @@
 {
-  "name": "fbn-icon",
-  "version": "2.0.0",
-  "description": "FeedbackNow website icon set",
+  "name": "fbn-icon-stacked",
+  "version": "1.2.1",
+  "description": "FeedbackNow website stacked icon set",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FBNEtienne/FeebackNowFont.git"
+    "url": "git+https://github.com/FBNEtienne/FeedbackNowStackedFont.git"
   },
   "keywords": [
     "icon"
@@ -16,12 +16,12 @@
   "license": "ISC",
   "bundleDependencies": false,
   "bugs": {
-    "url": "https://github.com/FBNEtienne/FeebackNowFont/issues"
+    "url": "https://github.com/FBNEtienne/FeedbackNowStackedFont/issues"
   },
   "deprecated": false,
-  "homepage": "https://github.com/FBNEtienne/FeebackNowFont#readme",
+  "homepage": "https://github.com/FBNEtienne/FeedbackNowStackedFont#readme",
   "style": "styles.scss",
   "dependencies": {
-    "fbn-icon": "git+https://github.com/FBNEtienne/FeebackNowFont.git"
+    "fbn-icon": "git+https://github.com/FBNEtienne/FeedbackNowStackedFont.git"
   }
 }
