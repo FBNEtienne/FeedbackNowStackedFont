@@ -22,6 +22,6 @@
   "homepage": "https://github.com/FBNEtienne/FeedbackNowStackedFont#readme",
   "style": "styles.scss",
   "dependencies": {
-    "fbn-icon": "git+https://github.com/FBNEtienne/FeedbackNowStackedFont.git"
+    "fbn-icon-stacked": "git+https://github.com/FBNEtienne/FeedbackNowStackedFont.git"
   }
 }
