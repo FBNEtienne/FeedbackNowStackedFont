@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "feedback-now-font";
+  src:url("fonts/feedback-now-font.eot");
+  src:url("fonts/feedback-now-font.eot?#iefix") format("embedded-opentype"),
+    url("fonts/feedback-now-font.woff") format("woff"),
+    url("fonts/feedback-now-font.ttf") format("truetype"),
+    url("fonts/feedback-now-font.svg#feedback-now-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "feedback-now-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="fbn-icon-"]:before,
+[class*=" fbn-icon-"]:before {
+  font-family: "feedback-now-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fbn-icon-0-axes-graph-1-3-4-6:before {
+  content: "\61";
+}
+.fbn-icon-graph1-calque2:before {
+  content: "\62";
+}
+.fbn-icon-graph1-calque3:before {
+  content: "\63";
+}
+.fbn-icon-graph2-calque1:before {
+  content: "\64";
+}
+.fbn-icon-graph2-calque2:before {
+  content: "\65";
+}
+.fbn-icon-graph2-calque3:before {
+  content: "\66";
+}
+.fbn-icon-graph2-calque4:before {
+  content: "\67";
+}
+.fbn-icon-graph3-calque1:before {
+  content: "\68";
+}
+.fbn-icon-graph3-calque2:before {
+  content: "\69";
+}
+.fbn-icon-graph3-calque3:before {
+  content: "\6a";
+}
+.fbn-icon-graph4-calque1:before {
+  content: "\6b";
+}
+.fbn-icon-graph4-calque2:before {
+  content: "\6c";
+}
+.fbn-icon-graph4-calque3:before {
+  content: "\6d";
+}
+.fbn-icon-graph5-calque1:before {
+  content: "\6e";
+}
+.fbn-icon-graph5-calque2:before {
+  content: "\6f";
+}
+.fbn-icon-graph6-calque1:before {
+  content: "\70";
+}
+.fbn-icon-graph6-calque2:before {
+  content: "\71";
+}
+.fbn-icon-graph7-calque1:before {
+  content: "\72";
+}
+.fbn-icon-graph7-calque2:before {
+  content: "\73";
+}
+.fbn-icon-graph8-calque1:before {
+  content: "\74";
+}
+.fbn-icon-graph8-calque2:before {
+  content: "\75";
+}
+.fbn-icon-graph8-calque3:before {
+  content: "\76";
+}
+.fbn-icon-graph9-calque1:before {
+  content: "\77";
+}
+.fbn-icon-graph9-calque2:before {
+  content: "\78";
+}
+.fbn-icon-graph9-calque3:before {
+  content: "\79";
+}
+.fbn-icon-graph10-calque1:before {
+  content: "\7a";
+}
+.fbn-icon-graph10-calque2:before {
+  content: "\41";
+}
+.fbn-icon-graph10-calque3:before {
+  content: "\42";
+}
+.fbn-icon-graph10-calque4:before {
+  content: "\43";
+}
+.fbn-icon-graph10-calque5:before {
+  content: "\44";
+}
+.fbn-icon-graph-11-12-calque1:before {
+  content: "\45";
+}
+.fbn-icon-graph-11-calque2:before {
+  content: "\46";
+}
+.fbn-icon-graph-11-calque3:before {
+  content: "\47";
+}
+.fbn-icon-graph-11-calque4:before {
+  content: "\48";
+}
+.fbn-icon-graph-12-calque2:before {
+  content: "\49";
+}
+.fbn-icon-graph-12-calque3:before {
+  content: "\4a";
+}
+.fbn-icon-graph-12-calque4:before {
+  content: "\4b";
+}
+.fbn-icon-graph-13-calque1:before {
+  content: "\4c";
+}
+.fbn-icon-graph-13-calque2:before {
+  content: "\4d";
+}
+.fbn-icon-graph-13-calque3:before {
+  content: "\4e";
+}
+.fbn-icon-graph-13-calque4:before {
+  content: "\4f";
+}
+.fbn-icon-graph-14-calque5:before {
+  content: "\50";
+}
+.fbn-icon-graph-15-calque1:before {
+  content: "\51";
+}
+.fbn-icon-graph-15-calque2:before {
+  content: "\52";
+}
+.fbn-icon-graph-15-calque3:before {
+  content: "\53";
+}

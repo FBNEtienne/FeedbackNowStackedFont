@@ -1,0 +1,27 @@
+{
+  "name": "fbn-icon",
+  "version": "2.0.0",
+  "description": "FeedbackNow website icon set",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBNEtienne/FeebackNowFont.git"
+  },
+  "keywords": [
+    "icon"
+  ],
+  "author": "FeedbackNow",
+  "license": "ISC",
+  "bundleDependencies": false,
+  "bugs": {
+    "url": "https://github.com/FBNEtienne/FeebackNowFont/issues"
+  },
+  "deprecated": false,
+  "homepage": "https://github.com/FBNEtienne/FeebackNowFont#readme",
+  "style": "styles.scss",
+  "dependencies": {
+    "fbn-icon": "git+https://github.com/FBNEtienne/FeebackNowFont.git"
+  }
+}
