@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "variables";
 
 @font-face {
   font-family: "feedback-now-font";
@@ -162,9 +161,6 @@
 .fbn-icon-graph-13-calque4:before {
   content: "\4f";
 }
-.fbn-icon-graph-14-calque5:before {
-  content: "\50";
-}
 .fbn-icon-graph-15-calque1:before {
   content: "\51";
 }
@@ -173,4 +169,13 @@
 }
 .fbn-icon-graph-15-calque3:before {
   content: "\53";
+}
+.fbn-icon-alert-graph-4-calque5:before {
+  content: "\50";
+}
+.fbn-icon-binary-sigma:before {
+  content: "\54";
+}
+.fbn-icon-binary:before {
+  content: "\55";
 }
