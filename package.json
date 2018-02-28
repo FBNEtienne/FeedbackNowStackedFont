@@ -1,6 +1,6 @@
 {
   "name": "fbn-icon-stacked",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "FeedbackNow website stacked icon set",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
