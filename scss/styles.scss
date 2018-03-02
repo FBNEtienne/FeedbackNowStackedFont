@@ -2,18 +2,18 @@
 @import "variables";
 
 @font-face {
-  font-family: "feedback-now-font";
-  src:url("#{$fbn-stacked-font-path}/feedback-now-font.eot");
-  src:url("#{$fbn-stacked-font-path}/feedback-now-font.eot?#iefix") format("embedded-opentype"),
-  url("#{$fbn-stacked-font-path}/feedback-now-font.woff") format("woff"),
-  url("#{$fbn-stacked-font-path}/feedback-now-font.ttf") format("truetype"),
-  url("#{$fbn-stacked-font-path}/feedback-now-font.svg#feedback-now-font") format("svg");
+  font-family: "fbn-stacked-icon-2";
+  src:url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.eot");
+  src:url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.eot?#iefix") format("embedded-opentype"),
+  url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.woff") format("woff"),
+  url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.ttf") format("truetype"),
+  url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.svg#fbn-stacked-icon-2") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 [data-icon]:before {
-  font-family: "feedback-now-font" !important;
+  font-family: "fbn-stacked-icon-2" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -31,7 +31,7 @@
 }
 [class^="fbn-stacked-icon-"]:before,
 [class*=" fbn-stacked-icon-"]:before {
-  font-family: "feedback-now-font" !important;
+  font-family: "fbn-stacked-icon-2" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -177,42 +177,45 @@
 .fbn-stacked-icon-alert-graph-4-calque5:before {
   content: "\50";
 }
-.fbn-stacked-icon-binary-sigma:before {
+.fbn-stacked-icon-heat-map-graph-calque1:before {
   content: "\54";
 }
-.fbn-stacked-icon-binary:before {
+.fbn-stacked-icon-heat-map-graph-calque1-copie:before {
   content: "\55";
 }
-.fbn-stacked-icon-heat-map-graph-calque1:before {
+.fbn-stacked-icon-heat-map-graph-calque2:before {
   content: "\56";
 }
-.fbn-stacked-icon-heat-map-graph-calque2:before {
+.fbn-stacked-icon-heat-map-graph-calque3:before {
   content: "\57";
 }
-.fbn-stacked-icon-heat-map-graph-calque3:before {
+.fbn-stacked-icon-heat-map-graph-calque4:before {
   content: "\58";
 }
-.fbn-stacked-icon-heat-map-graph-calque4:before {
+.fbn-stacked-icon-hourly-analysis-calque1:before {
   content: "\59";
 }
-.fbn-stacked-icon-hourly-analysis-calque1:before {
+.fbn-stacked-icon-hourly-analysis-calque2:before {
   content: "\5a";
 }
-.fbn-stacked-icon-hourly-analysis-calque2:before {
+.fbn-stacked-icon-hourly-analysis-calque3:before {
   content: "\30";
 }
-.fbn-stacked-icon-hourly-analysis-calque3:before {
+.fbn-stacked-icon-hourly-analysis-calque4:before {
   content: "\31";
 }
-.fbn-stacked-icon-hourly-analysis-calque4:before {
+.fbn-stacked-icon-hourly-analysis-calque5:before {
   content: "\32";
 }
-.fbn-stacked-icon-hourly-analysis-calque5:before {
+.fbn-stacked-icon-ranking1-analysis-calque1:before {
   content: "\33";
 }
-.fbn-stacked-icon-ranking-analysis-calque1:before {
+.fbn-stacked-icon-ranking1-analysis-calque2:before {
   content: "\34";
 }
-.fbn-stacked-icon-ranking-analysis-calque2:before {
+.fbn-stacked-icon-binary:before {
   content: "\35";
+}
+.fbn-stacked-icon-binary-sigma:before {
+  content: "\36";
 }
