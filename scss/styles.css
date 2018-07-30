@@ -1,15 +1,15 @@
 @charset "UTF-8";
-@import "variables";
 
 @font-face {
   font-family: "fbn-stacked-icon-2";
-  src:url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.eot");
-  src:url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.eot?#iefix") format("embedded-opentype"),
-  url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.woff") format("woff"),
-  url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.ttf") format("truetype"),
-  url("#{$fbn-stacked-font-path}/fbn-stacked-icon-2.svg#fbn-stacked-icon-2") format("svg");
+  src:url("fonts/fbn-stacked-icon-2.eot");
+  src:url("fonts/fbn-stacked-icon-2.eot?#iefix") format("embedded-opentype"),
+    url("fonts/fbn-stacked-icon-2.woff") format("woff"),
+    url("fonts/fbn-stacked-icon-2.ttf") format("truetype"),
+    url("fonts/fbn-stacked-icon-2.svg#fbn-stacked-icon-2") format("svg");
   font-weight: normal;
   font-style: normal;
+
 }
 
 [data-icon]:before {
@@ -25,10 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="fbn-stacked-icon-"],
-[class*=" fbn-stacked-icon-"] {
-  display: inline-block;
-}
 [class^="fbn-stacked-icon-"]:before,
 [class*=" fbn-stacked-icon-"]:before {
   font-family: "fbn-stacked-icon-2" !important;
